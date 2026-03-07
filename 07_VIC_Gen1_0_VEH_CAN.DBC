@@ -1,0 +1,624 @@
+VERSION ""
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+
+BU_: Thermal_Management_System_ECU Vehicle_Control_Unit VIC Info_Node 
+
+BO_ 2147485456 BatCfg: 8 VIC
+ SG_ EcuCalVersSwEcuTyp : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuSwNrSwEcuTyp : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ CmptbltyIdx : 32|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+
+BO_ 2147485461 BatEcuCalNr: 8 VIC
+ SG_ EcuCalVersBuild : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuCalVersCusVrnt : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuCalVersSwVrnt : 32|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+
+BO_ 2147485460 BatEcuCalVersNr: 8 VIC
+ SG_ EcuCalVersMjr : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuCalVersMid : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuCalVersMnr : 32|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+
+BO_ 2147485459 BatEcuSwNr: 8 VIC
+ SG_ EcuSwVersNrBuild : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuSwNrCusVrnt : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuSwNrSwVrnt : 32|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+
+BO_ 2147485458 BatEcuSwVersNr: 8 VIC
+ SG_ EcuSwVersNrMjr : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuSwVersNrMid : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuSwVersNrMnr : 32|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+
+BO_ 2147485440 BatILim: 8 VIC
+ SG_ IDchaLimSho : 12|12@1+ (0.5,0) [0|2047.5] "A"  Vehicle_Control_Unit
+ SG_ IDchaLimLong : 36|12@1+ (0.5,0) [0|2047.5] "A"  Vehicle_Control_Unit
+ SG_ IChLimSho : 0|12@1+ (0.5,0) [0|2047.5] "A"  Vehicle_Control_Unit
+ SG_ IChLimLong : 24|12@1+ (0.5,0) [0|2047.5] "A"  Vehicle_Control_Unit
+
+BO_ 2147483953 BatInfo: 8 VIC
+ SG_ ThermEveStsCellT : 50|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit
+ SG_ P : 16|13@1- (0.125,0) [-512|511.875] "kW"  Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ StsIslnMeast : 29|3@1+ (1,0) [0|7] "kW"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ RIsln : 32|16@1+ (8.0,0) [0|524280] "kOhm"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ RPrecOvtempFlag : 52|2@1+ (1,0) [0|3] "kOhm"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ DcnctPndFlag : 54|2@1+ (1,0) [0|3] "kOhm"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ DcnctPndCtr : 56|8@1+ (10.0,0) [0|255] "ms"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatInfo_Cks : 0|8@1+ (1.0,0) [0|255] "ms"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatInfo_Alvctr : 8|4@1+ (1.0,0) [0|255] "ms"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatInfo_DIDNibble : 12|4@1+ (1.0,0) [0|255] "ms"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+
+BO_ 2147483952 BatPermsnToCls: 8 VIC
+ SG_ IPermsnToCls : 16|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit
+ SG_ IslnPermsnToCls : 20|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ CtctrStuckPermsnToCls : 24|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ DcChCtctrPermsnToCls : 28|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ ThermRunAwPermsnToCls : 32|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ CrashPermsnToCls : 36|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ LockMemPermsnToCls : 40|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ CptTPermsnToCls : 44|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ CellUPermsnToCls : 48|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ CellTPermsnToCls : 52|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatPermsnToCls_Cks : 0|8@1+ (1.0,0) [0|255] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatPermsnToCls_Alvctr : 8|4@1+ (1.0,0) [0|255] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatPermsnToCls_DIDNibble : 12|4@1+ (1.0,0) [0|255] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+
+BO_ 2147485442 BatSox: 8 VIC
+ SG_ Soc : 0|10@1+ (0.125,0) [0|100] "%"  Vehicle_Control_Unit
+ SG_ Soh : 10|10@1+ (0.125,0) [0|100] "%"  Vehicle_Control_Unit
+ SG_ AvlE : 20|12@1+ (0.25,0) [0|1023.75] "kWh"  Vehicle_Control_Unit
+
+BO_ 2147483958 BatSts: 8 VIC
+ SG_ BatSt : 16|6@1+ (1,0) [0|63] ""  Vehicle_Control_Unit
+ SG_ EcuSt : 52|3@1+ (1,0) [0|3] ""  Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ SftySt : 22|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ ErrLvl : 24|4@1+ (1,0) [0|7] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ HvilPermsnToCls : 28|4@1+ (1,0) [0|15] ""  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ I : 32|14@1- (0.25,0) [-2048|2047.75] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ StCtctrPos : 46|2@1+ (1,0) [0|3] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ StCtctrNeg : 48|2@1+ (1,0) [0|3] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ StCtctrPrec : 50|2@1+ (1,0) [0|3] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatSts_Cks : 0|8@1+ (1.0,0) [0|255] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatSts_Alvctr : 8|4@1+ (1.0,0) [0|255] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatSts_DIDNibble : 12|4@1+ (1.0,0) [0|255] "A"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+
+BO_ 2147485457 BatSysId: 8 VIC
+ SG_ EcuHwNr : 0|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ EcuHwVers : 16|16@1+ (1,0) [0|65535] ""  Vehicle_Control_Unit
+ SG_ PackName : 32|5@1+ (1,0) [0|31] ""  Vehicle_Control_Unit
+ SG_ EcuTyp : 37|1@1+ (1,0) [0|1] ""  Vehicle_Control_Unit
+ SG_ EcuSbTypBms : 38|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit
+ SG_ EcuSbTypVic : 40|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit
+
+BO_ 2147485443 BatT: 8 VIC
+ SG_ TCellMin : 11|11@1- (0.25,0) [-256|255.75] "°C"  Vehicle_Control_Unit
+ SG_ TCellMax : 0|11@1- (0.25,0) [-256|255.75] "°C"  Vehicle_Control_Unit
+
+BO_ 2147485472 BatThermReq1: 8 VIC
+ SG_ ThermSysStrtReq1 : 0|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit
+ SG_ TSetPoint : 20|11@1- (0.25,0) [-256|255.75] "°C"  Thermal_Management_System_ECU
+ SG_ TAct : 9|11@1- (0.25,0) [-256|255.75] "°C"  Thermal_Management_System_ECU
+ SG_ EnaCoolgHeatgBatFlag : 7|2@1+ (1,0) [0|3] "°C"  Thermal_Management_System_ECU
+ SG_ PackNameThermReq1 : 2|5@1+ (1,0) [0|15] "°C"  Thermal_Management_System_ECU
+
+BO_ 2147485473 BatThermReq2: 8 VIC
+ SG_ ThermSysStrtReq2 : 0|2@1+ (1,0) [0|3] ""  Vehicle_Control_Unit
+ SG_ CoolgHeatgReq : 7|2@1+ (1,0) [0|3] ""  Thermal_Management_System_ECU
+
+BO_ 2147485444 BatUCell: 8 VIC
+ SG_ UCellMin : 12|12@1+ (0.002,0) [0|8.19] "V"  Vehicle_Control_Unit
+ SG_ UCellMax : 0|12@1+ (0.002,0) [0|8.19] "V"  Vehicle_Control_Unit
+
+BO_ 2147485441 BatULim: 8 VIC
+ SG_ UDchaLimSho : 12|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+ SG_ UDchaLimLong : 36|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+ SG_ UChLimSho : 0|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+ SG_ UChLimLong : 24|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+
+BO_ 2147483955 BatUMps: 8 VIC
+ SG_ ULnkMps : 0|12@1- (0.5,0) [-1024|1023.5] "V"  Vehicle_Control_Unit
+ SG_ UExpdDrvg : 24|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+ SG_ UExpdCh : 12|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+ SG_ UDcLnk : 36|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit
+
+BO_ 2147483956 BatUSng: 8 VIC
+ SG_ ULnkSng : 16|12@1- (0.5,0) [-1024|1023.5] "V"  Vehicle_Control_Unit
+ SG_ UBat : 28|12@1+ (0.25,0) [0|1023.75] "V"  Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatUSng_Cks : 0|8@1+ (1.0,0) [0|255] "V"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatUSng_Alvctr : 8|4@1+ (1.0,0) [0|255] "V"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+ SG_ BatUSng_DIDNibble : 12|4@1+ (1.0,0) [0|255] "V"  Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit,Vehicle_Control_Unit
+
+BO_ 2147483936 CtlCmd: 8 Vehicle_Control_Unit
+ SG_ IslnMeastDisaCmd : 24|2@1+ (1,0) [0|3] ""  VIC
+ SG_ HvReq : 16|8@1+ (1,0) [0|255] ""  VIC,VIC
+ SG_ CtlCmd_Cks : 0|8@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC
+ SG_ CtlCmd_Alvctr : 8|4@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC,VIC
+ SG_ CtlCmd_DIDNibble : 12|4@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC,VIC,VIC
+
+BO_ 2147483904 SftyInfo: 8 Vehicle_Control_Unit
+ SG_ SftyOk : 16|2@1+ (1,0) [0|3] ""  VIC
+ SG_ CrashDetnNeg : 18|2@1+ (1,0) [0|3] ""  VIC,VIC
+ SG_ SftyInfo_Cks : 0|8@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC
+ SG_ SftyInfo_Alvctr : 8|4@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC,VIC
+ SG_ SftyInfo_DIDNibble : 12|4@1+ (1.0,0) [0|255] ""  VIC,VIC,VIC,VIC,VIC
+
+BO_ 2147484673 ThermSysInfo: 8 Thermal_Management_System_ECU
+ SG_ CoolgHeatgCfmd : 0|10@1+ (0.125,0) [0|1023] "%"  VIC
+
+BO_ 2147483905 VehInfo: 8 Vehicle_Control_Unit
+ SG_ VehSpd : 32|11@1- (0.5,0) [-512|511.5] "km/h"  VIC
+ SG_ TAmb : 16|11@1- (0.25,0) [-256|255.75] "°C"  VIC,VIC
+ SG_ VehInfo_Cks : 0|8@1+ (1.0,0) [0|255] "°C"  VIC,VIC,VIC
+ SG_ VehInfo_Alvctr : 8|4@1+ (1.0,0) [0|255] "°C"  VIC,VIC,VIC,VIC
+ SG_ VehInfo_DIDNibble : 12|4@1+ (1.0,0) [0|255] "°C"  VIC,VIC,VIC,VIC,VIC
+
+BO_ 2147484672 VehTi: 8 Vehicle_Control_Unit
+ SG_ Year : 0|12@1+ (1,0) [0|4095] "years"  VIC
+ SG_ Month : 12|4@1+ (1,0) [1|12] "months"  VIC
+ SG_ Day : 16|6@1+ (1,0) [0|63] "days"  VIC
+ SG_ Hour : 22|5@1+ (1,0) [0|24] "h"  VIC
+ SG_ Minu : 27|6@1+ (1,0) [0|59] "min"  VIC
+ SG_ Sec : 33|6@1+ (1,0) [0|60] "s"  VIC
+
+BO_ 2147485568 UdsComRx_VIB_BMSStdAln: 8 VIC
+
+BO_ 2147485318 UdsComTx_VIBToPack1_1: 8 Info_Node
+
+BO_ 2147485324 UdsComTx_VIBToPack1_2: 8 Info_Node
+
+BO_ 2147485330 UdsComTx_VIBToPack1_3: 8 Info_Node
+
+BO_ 2147485336 UdsComTx_VIBToPack1_4: 8 Info_Node
+
+BO_ 2147485342 UdsComTx_VIBToPack1_5: 8 Info_Node
+
+BO_ 2147485360 UdsComTx_VIBToPack2_1: 8 Info_Node
+
+BO_ 2147485366 UdsComTx_VIBToPack2_2: 8 Info_Node
+
+BO_ 2147485372 UdsComTx_VIBToPack2_3: 8 Info_Node
+
+BO_ 2147485378 UdsComTx_VIBToPack2_4: 8 Info_Node
+
+BO_ 2147485384 UdsComTx_VIBToPack2_5: 8 Info_Node
+
+BO_ 2147485574 UdsComRx_VIBFromPack1_1: 8 VIC
+
+BO_ 2147485580 UdsComRx_VIBFromPack1_2: 8 VIC
+
+BO_ 2147485586 UdsComRx_VIBFromPack1_3: 8 VIC
+
+BO_ 2147485592 UdsComRx_VIBFromPack1_4: 8 VIC
+
+BO_ 2147485598 UdsComRx_VIBFromPack1_5: 8 VIC
+
+BO_ 2147485616 UdsComRx_VIBFromPack2_1: 8 VIC
+
+BO_ 2147485622 UdsComRx_VIBFromPack2_2: 8 VIC
+
+BO_ 2147485628 UdsComRx_VIBFromPack2_3: 8 VIC
+
+BO_ 2147485634 UdsComRx_VIBFromPack2_4: 8 VIC
+
+BO_ 2147485640 UdsComRx_VIBFromPack2_5: 8 VIC
+
+BO_ 2147485570 XcpComRx_VIB_BMSStdAln: 8 VIC
+
+BO_ 2147485320 XcpComTx_VIBToPack1_1: 8 Info_Node
+
+BO_ 2147485326 XcpComTx_VIBToPack1_2: 8 Info_Node
+
+BO_ 2147485332 XcpComTx_VIBToPack1_3: 8 Info_Node
+
+BO_ 2147485338 XcpComTx_VIBToPack1_4: 8 Info_Node
+
+BO_ 2147485344 XcpComTx_VIBToPack1_5: 8 Info_Node
+
+BO_ 2147485362 XcpComTx_VIBToPack2_1: 8 Info_Node
+
+BO_ 2147485368 XcpComTx_VIBToPack2_2: 8 Info_Node
+
+BO_ 2147485374 XcpComTx_VIBToPack2_3: 8 Info_Node
+
+BO_ 2147485380 XcpComTx_VIBToPack2_4: 8 Info_Node
+
+BO_ 2147485386 XcpComTx_VIBToPack2_5: 8 Info_Node
+
+BO_ 2147485576 XcpComRx_VIBFromPack1_1: 8 VIC
+
+BO_ 2147485582 XcpComRx_VIBFromPack1_2: 8 VIC
+
+BO_ 2147485588 XcpComRx_VIBFromPack1_3: 8 VIC
+
+BO_ 2147485594 XcpComRx_VIBFromPack1_4: 8 VIC
+
+BO_ 2147485600 XcpComRx_VIBFromPack1_5: 8 VIC
+
+BO_ 2147485618 XcpComRx_VIBFromPack2_1: 8 VIC
+
+BO_ 2147485624 XcpComRx_VIBFromPack2_2: 8 VIC
+
+BO_ 2147485630 XcpComRx_VIBFromPack2_3: 8 VIC
+
+BO_ 2147485636 XcpComRx_VIBFromPack2_4: 8 VIC
+
+BO_ 2147485642 XcpComRx_VIBFromPack2_5: 8 VIC
+
+
+
+
+CM_ BU_ Thermal_Management_System_ECU "Thermal_Management_System_ECU
+";
+CM_ BU_ Vehicle_Control_Unit "Vehicle_Control_Unit";
+CM_ BU_ VIC "The Battery System ECU connected to the vehicle CAN bus is
+(a) the VIC if the battery system is a multipack system;
+(b) the BMC if the battery system is a stand alone battery pack.";
+CM_ BU_ Info_Node "Info_Node represent the dummy ECU in both network to receive and send (dummy CAN message, UDS, XCP,...) : used for debug reason";
+CM_ BO_ 2147485456 "This message contains information about the position/role of the ECU within the battery system configuration.";
+CM_ SG_ 2147485456 EcuCalVersSwEcuTyp "For example:
+0 = invalid
+1 = Slave BMS
+2 = VIB";
+CM_ SG_ 2147485456 EcuSwNrSwEcuTyp "For example:
+0 = invalid
+1 = Slave BMS
+2 = VIB";
+CM_ SG_ 2147485456 CmptbltyIdx "This signal contains the compabibility index of the sender.";
+CM_ BO_ 2147485461 "This message contains additional information about the calibration data flashed on the ECU (besides the information in the message BatEcuCalVersNr).";
+CM_ SG_ 2147485461 EcuCalVersBuild "Internal build version
+Zero indicates an external release, non-zero indicates an internal release, e.g. for an unofficial test.";
+CM_ SG_ 2147485461 EcuCalVersCusVrnt "For example:
+0 =  invalid
+1 = Customer_1
+2 = Customer_2
+3 = Customer_3
+";
+CM_ SG_ 2147485461 EcuCalVersSwVrnt "For example:
+0 = invalid
+1 = Cell type 1
+2 = Cell type 2
+";
+CM_ BO_ 2147485460 "This message contains information about the version of the calibration data flashed on the ECU.";
+CM_ SG_ 2147485460 EcuCalVersMjr "Major Release";
+CM_ SG_ 2147485460 EcuCalVersMid "Feature Release";
+CM_ SG_ 2147485460 EcuCalVersMnr "Bug Fix Release";
+CM_ BO_ 2147485459 "This message contains additional information about the software flashed on the ECU (besides the information in the message BatEcuSwVersNr).";
+CM_ SG_ 2147485459 EcuSwVersNrBuild "Internal build version
+Zero indicates an external release, non-zero indicates an internal release, e.g. for an unofficial test.";
+CM_ SG_ 2147485459 EcuSwNrCusVrnt "For example:
+0 =  invalid
+1 = Customer_1
+2 = Customer_2
+3 = Customer_3";
+CM_ SG_ 2147485459 EcuSwNrSwVrnt "For example:
+0 = invalid
+1 = CV_Standard";
+CM_ BO_ 2147485458 "This message contains information about the software version flashed on the ECU.";
+CM_ SG_ 2147485458 EcuSwVersNrMjr "Major Release";
+CM_ SG_ 2147485458 EcuSwVersNrMid "Feature Release";
+CM_ SG_ 2147485458 EcuSwVersNrMnr "Bug Fix Release";
+CM_ BO_ 2147485440 "This message contains the short and long term current limits of the battery system for charging and discharging.";
+CM_ SG_ 2147485440 IDchaLimSho "This signal contains the short term current limit for discharging the battery system.";
+CM_ SG_ 2147485440 IDchaLimLong "This signal contains the long term current limit for discharging the battery system.";
+CM_ SG_ 2147485440 IChLimSho "This signal contains the short term current limit for charging the battery system.";
+CM_ SG_ 2147485440 IChLimLong "This signal contains the long term current limit for charging the battery system.";
+CM_ BO_ 2147483953 "This is the second of two messages that contain error information about the battery system.";
+CM_ SG_ 2147483953 ThermEveStsCellT "This signal indicates if the temperature of the cells in the pack is in a critical range";
+CM_ SG_ 2147483953 P "This signal contains the present electrical power flow through the battery system.
+
+Positive value: charge
+Negative value: discharge";
+CM_ SG_ 2147483953 StsIslnMeast "This signal indicates whether the isolation measurement of the battery system is deactivated or activated.";
+CM_ SG_ 2147483953 RIsln "This signal contains the isolation measurement value of the battery system.";
+CM_ SG_ 2147483953 RPrecOvtempFlag "This signal indicates whether pre-charge of the battery system is presently impossible due to overtemperature of the precharge resistor.";
+CM_ SG_ 2147483953 DcnctPndFlag "This signal indicates whether disconnection of the battery system is imminent due to an error.";
+CM_ SG_ 2147483953 DcnctPndCtr "If DcnctPndFlag equals 1 the signal DcnctPndCtr counts the time until the battery system will be disconnected.";
+CM_ SG_ 2147483953 BatInfo_Cks "CheckSum signal for message BatInfo";
+CM_ SG_ 2147483953 BatInfo_Alvctr "Alive Counter signal for message BatInfo";
+CM_ SG_ 2147483953 BatInfo_DIDNibble "DIDNibble signal for message BatInfo";
+CM_ BO_ 2147483952 "This is the first of two messages that contain error information about battery 1_1.";
+CM_ SG_ 2147483952 IPermsnToCls "Indicates whether the pack current safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 IslnPermsnToCls "Indicates whether the isolation safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 CtctrStuckPermsnToCls "Indicates whether the contactor stuck closed safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 DcChCtctrPermsnToCls "Indicates whether the DC contactor monitoring safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 ThermRunAwPermsnToCls "Indicates whether the thermal runaway safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 CrashPermsnToCls "Indicates whether the crash safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 LockMemPermsnToCls "Indicates whether the lock memory monitoring of the system gives permission to activate HV.";
+CM_ SG_ 2147483952 CptTPermsnToCls "Indicates whether the component temperature safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 CellUPermsnToCls "Indicates whether the cell voltage safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 CellTPermsnToCls "Indicates whether the cell temperature safety function gives permission to activate HV.";
+CM_ SG_ 2147483952 BatPermsnToCls_Cks "CheckSum signal for message BatPermsnToCls";
+CM_ SG_ 2147483952 BatPermsnToCls_Alvctr "Alive Counter signal for message BatPermsnToCls";
+CM_ SG_ 2147483952 BatPermsnToCls_DIDNibble "DIDNibble signal for message BatPermsnToCls";
+CM_ BO_ 2147485442 "This message contains the SoC, the SoH and the presently available energy of the battery system.";
+CM_ SG_ 2147485442 Soc "This signal contains the present state of charge of the battery system.";
+CM_ SG_ 2147485442 Soh "This signal contains the present state of health of the battery system.";
+CM_ SG_ 2147485442 AvlE "This signal contains the energy currently available in the battery system.
+
+The signal is always 0 in the present software version; it is pre-defined for use in later software versions.";
+CM_ BO_ 2147483958 "This message contains information about the present status of the battery system.";
+CM_ SG_ 2147483958 BatSt "This signal contains the present status of the battery system.";
+CM_ SG_ 2147483958 EcuSt "This signal contains the present status of the BMC in the battery system.";
+CM_ SG_ 2147483958 SftySt "This signal contains the status of the functional safety monitoring level.";
+CM_ SG_ 2147483958 ErrLvl "This signal contains the present error level of the battery system.";
+CM_ SG_ 2147483958 HvilPermsnToCls "Indicates whether the HVIL safety function gives permission to activate HV.";
+CM_ SG_ 2147483958 I "This signal contains the present current flow through the battery system.
+
+Positive value: charge
+Negative value: discharge";
+CM_ SG_ 2147483958 StCtctrPos "This signal contains the status of the positive main HV contactor.";
+CM_ SG_ 2147483958 StCtctrNeg "This signal contains the status of the negative main HV contactor.";
+CM_ SG_ 2147483958 StCtctrPrec "This signal contains the status of the precharge contactor.";
+CM_ SG_ 2147483958 BatSts_Cks "CheckSum signal for message BatSts";
+CM_ SG_ 2147483958 BatSts_Alvctr "Alive Counter signal for message BatSts";
+CM_ SG_ 2147483958 BatSts_DIDNibble "DIDNibble signal for message BatSts";
+CM_ BO_ 2147485457 "This message contains information about the ECU hardware.";
+CM_ SG_ 2147485457 EcuHwNr "ECU hardware number";
+CM_ SG_ 2147485457 EcuHwVers "ECU hardware version";
+CM_ SG_ 2147485457 PackName "Name of the battery pack.
+The raw value of the signal corresponds to the Pack ID.";
+CM_ SG_ 2147485457 EcuTyp "Define the ECU type BMS or VIC
+";
+CM_ SG_ 2147485457 EcuSbTypBms "ECU sub-type for BMS
+0: Standalone BMS
+1: Slave BMS in Multipack System
+2: reserved
+3: info not available";
+CM_ SG_ 2147485457 EcuSbTypVic "ECU sub-type for VIC
+0: 1sXp Multipack configuration
+1: 2sXp Multipack configuration
+2: reserved
+3: info not available";
+CM_ BO_ 2147485443 "This message contains information about the temperature of the battery system.";
+CM_ SG_ 2147485443 TCellMin "This signal contains the minimal cell temperature within tthe battery system.";
+CM_ SG_ 2147485443 TCellMax "This signal contains the maximal cell temperature within the battery system.";
+CM_ BO_ 2147485472 "The battery system uses this message to request cooling or heating from the thermal management system in the vehicle.
+Only suitable for thermal management systems that use a control algorithm based on actual and set point temperatures.";
+CM_ SG_ 2147485472 ThermSysStrtReq1 "This signal contains the following information:
+Does the battery system require the ECU of the thermal management system to be awake?";
+CM_ SG_ 2147485472 TSetPoint "This signal is the set point temperature for the cooling / heating control of the thermal management system.
+The signal shall be set to a fixed value, such that it is the same for all battery packs.";
+CM_ SG_ 2147485472 TAct "The signal contains the actual temperature of this battery pack.";
+CM_ SG_ 2147485472 EnaCoolgHeatgBatFlag "This signal indicates whether cooling/heating shall be activated for the battery system.";
+CM_ SG_ 2147485472 PackNameThermReq1 "The signal shall continuously have the value that indicates the name of the battery system.
+It is only used for consistency with the vehicle CAN.";
+CM_ BO_ 2147485473 "The the battery system uses this message to request cooling or heating from the thermal management system in the vehicle.
+Only suitable for thermal management systems that merely activate / deactive the coolant flow (with fixed temperature) based on a flag.";
+CM_ SG_ 2147485473 ThermSysStrtReq2 "This signal contains the following information:
+Does the battery system require the ECU of the thermal management system to be awake?";
+CM_ SG_ 2147485473 CoolgHeatgReq "This signal indicates whether the battery system requests the coolant flow to be activated by the thermal management system or not.";
+CM_ BO_ 2147485444 "This message contains the maximal and minimal cell voltage within the battery system.";
+CM_ SG_ 2147485444 UCellMin "This signal contains the minimal voltage of all cells within the battery system.";
+CM_ SG_ 2147485444 UCellMax "This signal contains the maximal voltage of all cells within the battery system.";
+CM_ BO_ 2147485441 "This message contains the short and long term voltage limits of the battery system for charging and discharging.";
+CM_ SG_ 2147485441 UDchaLimSho "This signal contains the short term voltage limit for discharging the battery system.";
+CM_ SG_ 2147485441 UDchaLimLong "This signal contains the long term voltage limit for discharging the battery system.";
+CM_ SG_ 2147485441 UChLimSho "This signal contains the short term voltage limit for charging the battery system.";
+CM_ SG_ 2147485441 UChLimLong "This signal contains the long term voltage limit for charging the battery system.";
+CM_ BO_ 2147483955 "This message is not relevant on the battery CAN.";
+CM_ SG_ 2147483955 ULnkMps "This signal is not relevant on the battery CAN.";
+CM_ SG_ 2147483955 UExpdDrvg "This signal is not relevant on the battery CAN.";
+CM_ SG_ 2147483955 UExpdCh "This signal is not relevant on the battery CAN.";
+CM_ SG_ 2147483955 UDcLnk "This signal is not relevant on the battery CAN.";
+CM_ BO_ 2147483956 "This message contains high voltage information about the battery system.";
+CM_ SG_ 2147483956 ULnkSng "This signal contains the link voltage of the battery system.";
+CM_ SG_ 2147483956 UBat "This is the voltage of the battery system.
+The value does not depend on whether the contactors are opened or closed.";
+CM_ SG_ 2147483956 BatUSng_Cks "CheckSum signal for message BatUSng";
+CM_ SG_ 2147483956 BatUSng_Alvctr "Alive Counter signal for message BatUSng";
+CM_ SG_ 2147483956 BatUSng_DIDNibble "DIDNibble signal for message BatUSng";
+CM_ BO_ 2147483936 "This message contains control commands sent to the battery system by the VIC.";
+CM_ SG_ 2147483936 IslnMeastDisaCmd "This signal can be used by the VIC to deactivate or activate the isolation measurement of the battery system.";
+CM_ SG_ 2147483936 HvReq "This signal contains the high voltage request sent to the battery system by the VIC.";
+CM_ SG_ 2147483936 CtlCmd_Cks "CheckSum signal for message CtlCmd";
+CM_ SG_ 2147483936 CtlCmd_Alvctr "Alive Counter signal for message CtlCmd";
+CM_ SG_ 2147483936 CtlCmd_DIDNibble "DIDNibble signal for message CtlCmd";
+CM_ BO_ 2147483904 "Safety information : It is forwarded to the battery packs by the VIC.";
+CM_ SG_ 2147483904 SftyOk "status of the safety diagnostics";
+CM_ SG_ 2147483904 CrashDetnNeg "This signals informs the battery system whether the result of the crash detection of the vehicle is negative.";
+CM_ SG_ 2147483904 SftyInfo_Cks "CheckSum signal for message SftyInfo";
+CM_ SG_ 2147483904 SftyInfo_Alvctr "Alive Counter signal for message SftyInfo";
+CM_ SG_ 2147483904 SftyInfo_DIDNibble "DIDNibble signal for message SftyInfo";
+CM_ BO_ 2147484673 "This message contains information sent to the battery system by the thermal management system of the vehicle.
+It is forwarded by the VIC to the packs.";
+CM_ SG_ 2147484673 CoolgHeatgCfmd "The value of this signal shall be the fraction
+
+P_available / P_required,
+
+where:
+
+- P_available is the power presently used for heating/cooling of the battery system;
+- P_required is the power that would presently be needed for cooling/heating.";
+CM_ BO_ 2147483905 "This message contains information about the vehicle status sent to the battery system by the vehicle.
+It is forwarded to the battery packs by the VIC.";
+CM_ SG_ 2147483905 VehSpd "This signal contains the present vehicle speed.";
+CM_ SG_ 2147483905 TAmb "This signal contains the ambient temperature of the vehicle.";
+CM_ SG_ 2147483905 VehInfo_Cks "CheckSum signal for message VehInfo";
+CM_ SG_ 2147483905 VehInfo_Alvctr "Alive Counter signal for message VehInfo";
+CM_ SG_ 2147483905 VehInfo_DIDNibble "DIDNibble signal for message VehInfo";
+CM_ BO_ 2147484672 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ SG_ 2147484672 Year "This signal contains the year of the vehicle time (in time zone UTC+0).";
+CM_ SG_ 2147484672 Month "This signal contais the month (within the given year) of the vehicle time (in time zone UTC+0).";
+CM_ SG_ 2147484672 Day "This signal contais the day (within the given month) of the vehicle time (in time zone UTC+0).";
+CM_ SG_ 2147484672 Hour "This signal contais the hour (within the given day) of the vehicle time (in time zone UTC+0).";
+CM_ SG_ 2147484672 Minu "This signal contains the minute (within the given hour) of the vehicle time (in time zone UTC+0).";
+CM_ SG_ 2147484672 Sec "This signal contains the second (within the given minute) of the vehicle time (in time zone UTC+0).";
+CM_ BO_ 2147485568 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485318 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485324 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485330 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485336 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485342 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485360 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485366 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485372 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485378 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485384 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485574 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485580 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485586 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485592 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485598 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485616 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485622 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485628 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485634 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485640 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485570 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485320 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485326 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485332 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485338 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485344 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485362 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485368 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485374 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485380 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485386 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485576 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485582 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485588 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485594 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485600 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485618 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485624 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485630 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485636 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+CM_ BO_ 2147485642 "The signal contains the present vehicle time sent to the battery system by the vehicle (in time zone UTC+0).
+It is forward to the battery packs by the VIC.";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_ "GenMsgCycleTime" BO_ 2147485456 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485461 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485460 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485459 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485458 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485440 100;
+BA_ "GenMsgCycleTime" BO_ 2147483953 100;
+BA_ "GenMsgCycleTime" BO_ 2147483952 100;
+BA_ "GenMsgCycleTime" BO_ 2147485442 1000;
+BA_ "GenMsgCycleTime" BO_ 2147483958 10;
+BA_ "GenMsgCycleTime" BO_ 2147485457 5000;
+BA_ "GenMsgCycleTime" BO_ 2147485443 1000;
+BA_ "GenMsgCycleTime" BO_ 2147485472 100;
+BA_ "GenMsgCycleTime" BO_ 2147485473 1000;
+BA_ "GenMsgCycleTime" BO_ 2147485444 100;
+BA_ "GenMsgCycleTime" BO_ 2147485441 100;
+BA_ "GenMsgCycleTime" BO_ 2147483955 100;
+BA_ "GenMsgCycleTime" BO_ 2147483956 100;
+BA_ "GenMsgCycleTime" BO_ 2147483936 100;
+BA_ "GenMsgCycleTime" BO_ 2147483904 10;
+BA_ "GenMsgCycleTime" BO_ 2147484673 1000;
+BA_ "GenMsgCycleTime" BO_ 2147483905 100;
+BA_ "GenMsgCycleTime" BO_ 2147484672 1000;
+VAL_ 2147483953 ThermEveStsCellT 3  "info not available (default)" 2  "crit. temp. warn. limit exceeded" 1  "temp. warn. limit exceeded" 0  "temperature ok"  ;
+VAL_ 2147483953 StsIslnMeast 7  "Info not available (default)" 2  "Inhibited" 1  "Disabled" 0  "Enabled"  ;
+VAL_ 2147483953 RPrecOvtempFlag 3  "Info not available (default)" 1  "Precharge impossible" 0  "Precharge possible"  ;
+VAL_ 2147483953 DcnctPndFlag 3  "Info not available (default)" 1  "Disconnection is imminent" 0  "No disconnection anticipated"  ;
+VAL_ 2147483952 IPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 IslnPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 CtctrStuckPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 DcChCtctrPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 ThermRunAwPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 CrashPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 LockMemPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 CptTPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 CellUPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483952 CellTPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483958 BatSt 63  "info not available (default)" 62  "in service mode" 54  "connected, DC contactors opened" 53  "connected for DC charging" 48  "prepared for DC charging" 37  "connected for AC charging" 23  "disconnecting" 16  "connecting" 21  "connected" 3  "disconnected, awaiting HV req." 2  "disconnected, not ready" 1  "emergeny disconnecting" 0  "initialising"  ;
+VAL_ 2147483958 EcuSt 3  "Info not available (default)" 2  "Shutdown" 1  "Run" 0  "Startup"  ;
+VAL_ 2147483958 SftySt 0  "safety is not ok" 1  "safety is ok" 2  "reserved" 3  "Info not available (default)"  ;
+VAL_ 2147483958 ErrLvl 0  "System is ok" 1  "Internal information" 2  "Limp Home with limited power" 3  "Open contactors with speed limit" 4  "Open contactors with time limit" 5  "Open contactors normal" 6  "Open contactors immediately" 7  "Open contactors immediately and lock"  ;
+VAL_ 2147483958 HvilPermsnToCls 15  "Info not available (default)" 11  "Granted but error" 10  "Granted" 2  "Denied permanently" 1  "Denied until restart" 0  "Denied due to initialization"  ;
+VAL_ 2147483958 StCtctrPos 0  "open" 1  "closed" 2  "unknown" 3  "Information not available"  ;
+VAL_ 2147483958 StCtctrNeg 0  "open" 1  "closed" 2  "unknown" 3  "Information not available"  ;
+VAL_ 2147483958 StCtctrPrec 0  "open" 1  "closed" 2  "unknown" 3  "Information not available"  ;
+VAL_ 2147485457 PackName 0  "Pack1_1 or Standalone" 1  "Pack1_2" 2  "Pack1_3" 3  "Pack1_4" 4  "Pack1_5" 5  "Pack1_6" 6  "Pack1_7" 7  "Pack2_1" 8  "Pack2_2" 9  "Pack2_3" 10  "Pack2_4" 11  "Pack2_5" 12  "Pack2_6" 30  "VIC" 31  "Info not available"  ;
+VAL_ 2147485457 EcuTyp 0  "BMS" 1  "VIC"  ;
+VAL_ 2147485457 EcuSbTypBms 0  "Standalone BMS" 1  "Slave BMS in Multipack System" 2  "reserved" 3  "info not available"  ;
+VAL_ 2147485457 EcuSbTypVic 0  "1sXp Multipack configuration" 1  "2sXp Multipack configuration" 2  "reserved" 3  "info not available"  ;
+VAL_ 2147485472 ThermSysStrtReq1 3  "Info not available (default)" 2  "reserved" 1  "Yes" 0  "No"  ;
+VAL_ 2147485472 EnaCoolgHeatgBatFlag 3  "info not available (default)" 2  "reserved" 1  "activate" 0  "deactivate"  ;
+VAL_ 2147485472 PackNameThermReq1 15  "undefined_15" 14  "undefined_14" 13  "Slave pack 2_5" 12  "Slave pack 2_4" 11  "Slave pack 2_3" 10  "Slave pack 2_2" 9  "Slave pack 2_1" 8  "undefined_8" 7  "undefined_7" 6  "undefined_6" 5  "Slave pack 1_5" 4  "Slave pack 1_4" 3  "Slave pack 1_3" 2  "Slave pack 1_2" 1  "Slave pack 1_1" 0  "undefined_0"  ;
+VAL_ 2147485473 ThermSysStrtReq2 3  "Info not available (default)" 2  "reserved" 1  "Yes" 0  "No"  ;
+VAL_ 2147485473 CoolgHeatgReq 3  "info not available (default)" 2  "reserved" 1  "activate" 0  "deactivate"  ;
+VAL_ 2147483936 IslnMeastDisaCmd 3  "info not available (default)" 2  "reserved" 1  "deactivate" 0  "activate"  ;
+VAL_ 2147483936 HvReq 255  "info not available (default)" 50  "disconnect DC char. (VIB only)" 49  "connect for DC char. (VIB only)" 48  "prepare for DC char. (VIB only)" 32  "connect for AC charging" 16  "connect for driving" 1  "emergency disconnect" 0  "disconnect"  ;
+VAL_ 2147483904 SftyOk 3  "Signal not available or Invalid" 2  "reserved" 1  "Safety is OK" 0  "Safety is not OK"  ;
+VAL_ 2147483904 CrashDetnNeg 3  "Info not available (default)" 2  "reserved" 1  "no crash detected" 0  "crash detected"  ;
