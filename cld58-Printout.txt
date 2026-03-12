@@ -1,0 +1,2276 @@
+
+07:55:07.27: === Cld58.ino - Webasto CV Battery BMS Controller (Fixed) ===
+E2E Profile 1C with CRC input [DID_LB, 0x00, data[1]..data[7]] (9 bytes) per AUTOSAR spec
+CRC self-test Profile 1C [BF,00,8E,F5]: 0x02
+Initialize buffers
+Self-test CRC: 0x2
+07:55:07.52: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:07.76: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:08.01: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:08.26: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:08.51: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:08.76: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:09.01: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:09.26: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:09.52: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:09.77: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:10.01: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:10.27: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:10.52: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:10.77: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:11.03: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:11.28: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:11.53: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:11.78: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:12.02: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:12.29: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:12.52: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:12.79: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:13.04: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:13.29: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:13.54: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:13.79: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:14.03: Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+07:55:14.18: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x60F: 5E 62 00 FC FF FF FF FF 
+TX ID 0x5B0: AE 52 50 F8 00 F8 FF FF 
+TX ID 0x600: F0 62 0D 03 6C 00 00 00 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:14.19: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.20: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+07:55:14.23: TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:14.26: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x60F: 03 63 00 FC FF FF FF FF 
+TX ID 0x5B0: F3 53 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:14.28: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:14.30: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:14.33: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.34: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:14.36: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x60F: 8D 64 00 FC FF FF FF FF 
+TX ID 0x5B0: 7D 54 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:14.37: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:14.40: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+07:55:14.43: TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:14.44: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:14.46: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x60F: D0 65 00 FC FF FF FF FF 
+TX ID 0x5B0: 20 55 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.49: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:14.50: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+07:55:14.52: TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:14.53: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+07:55:14.55: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:14.57: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x60F: 37 66 00 FC FF FF FF FF 
+TX ID 0x5B0: C7 56 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:14.59: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.62: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+07:55:14.64: TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:14.67: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x60F: 6A 67 00 FC FF FF FF FF 
+TX ID 0x5B0: 9A 57 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:14.69: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:14.70: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:14.72: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:14.73: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:14.75: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.77: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x60F: 36 68 00 FC FF FF FF FF 
+TX ID 0x5B0: C6 58 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:14.78: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+Inputs: startupPinRaw=1 (enable=0), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:14.80: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:14.83: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:14.84: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:14.86: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x60F: 6B 69 00 FC FF FF FF FF 
+TX ID 0x5B0: 9B 59 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:14.89: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:14.91: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+07:55:14.94: TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:14.96: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x60F: 8C 6A 00 FC FF FF FF FF 
+TX ID 0x5B0: 7C 5A 50 F8 00 F8 FF FF 
+07:55:14.97: 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+07:55:14.99: TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:15.01: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:15.02: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:15.04: Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:15.05: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x60F: D1 6B 00 FC FF FF FF FF 
+TX ID 0x5B0: 21 5B 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.08: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:15.09: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:15.13: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:15.14: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:15.15: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x60F: 5F 6C 00 FC FF FF FF FF 
+07:55:15.17: 
+TX ID 0x5B0: AF 5C 50 F8 00 F8 FF FF 
+TX ID 0x600: AD 63 0D 03 6C 00 00 00 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:15.18: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:15.20: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.22: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:15.23: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:15.26: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x60F: 02 6D 00 FC FF FF FF FF 
+TX ID 0x5B0: F2 5D 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:15.28: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:15.30: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:15.31: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:15.35: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.36: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x60F: E5 6E 00 FC FF FF FF FF 
+TX ID 0x5B0: 15 5E 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+07:55:15.39: TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:15.41: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:15.44: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:15.46: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x60F: B9 61 00 FC FF FF FF FF 
+TX ID 0x5B0: 49 51 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:15.48: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.50: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:15.53: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+07:55:15.55: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:15.57: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x60F: 5E 62 00 FC FF FF FF FF 
+TX ID 0x5B0: AE 52 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:15.58: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:15.60: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:15.63: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.64: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x60F: 03 63 00 FC FF FF FF FF 
+TX ID 0x5B0: F3 53 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:15.68: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:15.70: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:15.72: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:15.73: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+07:55:15.75: TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x60F: 8D 64 00 FC FF FF FF FF 
+TX ID 0x5B0: 7D 54 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:15.78: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+07:55:15.81: TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+07:55:15.83: TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+07:55:15.86: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x60F: D0 65 00 FC FF FF FF FF 
+TX ID 0x5B0: 20 55 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:15.88: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+07:55:15.90: TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+07:55:15.92: TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+07:55:15.93: TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+07:55:15.95: TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x60F: 37 66 00 FC FF FF FF FF 
+TX ID 0x5B0: C7 56 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:15.98: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:16.00: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:16.02: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:16.04: Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:16.06: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x60F: 6A 67 00 FC FF FF FF FF 
+TX ID 0x5B0: 9A 57 50 F8 00 F8 FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:16.08: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+07:55:16.09: TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+07:55:16.11: TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+07:55:16.14: TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:16.15: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x60F: 36 68 00 FC FF FF FF FF 
+TX ID 0x5B0: C6 58 50 F8 00 F8 FF FF 
+TX ID 0x600: 23 64 0D 03 6C 00 00 00 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:16.18: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:16.20: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:16.23: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:16.25: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x60F: 6B 69 00 FC FF FF FF FF 
+TX ID 0x5B0: 9B 59 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+07:55:16.30: TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+Inputs: startupPinRaw=0 (enable=1), faultPinRaw=1 (faultIn=0)
+TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+07:55:16.33: TX ID 0x8BF: C5 88 F5 FF FF FF FF FF 
+TX ID 0x8BF: 98 89 F5 FF FF FF FF FF 
+07:55:16.35: TX ID 0x8BF: 7F 8A F5 FF FF FF FF FF 
+TX ID 0x8BF: 22 8B F5 FF FF FF FF FF 
+07:55:16.36: TX ID 0x8BF: AC 8C F5 FF FF FF FF FF 
+TX ID 0x60F: 8C 6A 00 FC FF FF FF FF 
+TX ID 0x5B0: 7C 5A 50 F8 00 F8 FF FF 
+TX ID 0x8BF: F1 8D F5 FF FF FF FF FF 
+07:55:16.39: TX ID 0x8BF: 16 8E F5 FF FF FF FF FF 
+TX ID 0x8BF: 4A 81 F5 FF FF FF FF FF 
+07:55:16.41: TX ID 0x8BF: AD 82 F5 FF FF FF FF FF 
+TX ID 0x8BF: F0 83 F5 FF FF FF FF FF 
+State: WAKE -> UDS_SESSION (CL15 asserted)
+07:55:16.42: TX ID 0x8BF: 7E 84 F5 FF FF FF FF FF 
+TX ID 0x8BF: 23 85 F5 FF FF FF FF FF 
+07:55:16.44: TX ID 0x8BF: C4 86 F5 FF FF FF FF FF 
+07:55:16.45: TX ID 0x8BF: 99 87 F5 FF FF FF FF FF 
+RX ID 0x0: BF 24 01 16 00 00 90 FF 
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x702: 4D 80 9C 00 FF FF FF FF 
+RX ID 0x703: 23 F8 C0 FF FF FF FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x710: 00 00 00 00 02 00 FF FF 
+RX ID 0x711: 08 00 08 00 00 FC FF FF 
+RX ID 0x712: 07 00 03 00 02 00 FF FF 
+07:55:16.49: RX ID 0x713: 01 00 00 00 00 00 FF FF 
+RX ID 0x714: 00 00 00 00 00 00 FF FF 
+RX ID 0x715: 00 00 00 00 00 00 FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x721: FC FE FF FF FF FF FF FF 
+RX ID 0x725: 00 00 00 00 00 00 00 00 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 3C 17 AA FA A0 F1 0A FF 
+RX ID 0x134: A3 37 E6 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: F9 18 AA FA A0 F1 0A FF 
+RX ID 0x134: CB 38 E6 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:16.77: 
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: BF 19 AA FA A0 F1 0A FF 
+RX ID 0x134: 56 39 E6 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 75 1A AA FA A0 F1 0A FF 
+RX ID 0x134: 13 3A E6 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:16.98: RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 33 1B AA FA A0 F1 0A FF 
+RX ID 0x134: FE 3B E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:17.14: 
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: FC 1C AA FA A0 F1 0A FF 
+RX ID 0x134: 0A 3C E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+RX ID 0x130: BA 1D AA FA A0 F1 0A FF 
+RX ID 0x134: 97 3D E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+07:55:17.37: 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 70 1E AA FA A0 F1 0A FF 
+RX ID 0x134: D2 3E E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+07:55:17.47: BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+07:55:17.53: BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: F3 10 AA FA A0 F1 0A FF 
+RX ID 0x134: D8 30 E7 FF 54 FF FF FF 
+07:55:17.58: 
+Pack Voltage: 1021.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: B5 11 AA FA A0 F1 0A FF 
+RX ID 0x134: 45 31 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x702: 4D 80 9C 00 FF FF FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 98 13 AA FA A0 F1 AA FF 
+RX ID 0x134: 62 33 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+RX ID 0x130: 57 14 AA FA A0 F1 AA FF 
+RX ID 0x134: 96 34 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+07:55:17.98: 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: 11 15 AA FA A0 F1 AA FF 
+RX ID 0x134: 0B 35 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+07:55:18.10: 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.15: 
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+07:55:18.18: 
+RX ID 0x130: DB 16 AA FA A0 F1 AA FF 
+RX ID 0x134: B1 36 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 9D 17 AA FA A0 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+07:55:18.31: BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+07:55:18.34: BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.37: RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: 58 18 AA FA A0 F1 AA FF 
+RX ID 0x134: 44 38 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x701: 2D 46 53 2D 46 53 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: F6 19 AA FA 10 F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.51: RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+07:55:18.53: BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.58: RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 3C 1A AA FA 10 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.63: 
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 7A 1B AA FA 10 F1 AA FF 
+RX ID 0x134: FE 3B E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+07:55:18.70: 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:18.75: RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+07:55:18.77: 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: B5 1C AA FA 10 F1 AA FF 
+RX ID 0x134: 0A 3C E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+RX ID 0x130: F3 1D AA FA 10 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 39 1E AA FA 10 F1 AA FF 
+RX ID 0x134: 2D 3E E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: BA 10 AA FA 10 F1 AA FF 
+RX ID 0x134: D8 30 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: FC 11 AA FA 10 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x130: 36 12 AA FA 10 F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 70 13 AA FA 10 F1 AA FF 
+07:55:19.40: 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+RX ID 0x130: BF 14 AA FA 10 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x720: 80 3E 80 87 FF FF FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: F9 15 AA FA 10 F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+RX ID 0x130: 33 16 AA FA 10 F1 AA FF 
+RX ID 0x134: B1 36 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x725: 00 00 00 00 00 00 00 00 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 75 17 AA FA 10 F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: B0 18 AA FA 10 F1 AA FF 
+RX ID 0x134: 44 38 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: F6 19 AA FA 10 F1 AA FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 3C 1A AA FA 10 F1 AA FF 
+RX ID 0x134: 63 3A E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 7A 1B AA FA 10 F1 AA FF 
+RX ID 0x134: FE 3B E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: B5 1C AA FA 10 F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+RX ID 0x130: F3 1D AA FA 10 F1 AA FF 
+RX ID 0x134: 97 3D E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+07:55:20.40: 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:20.45: 
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 39 1E AA FA 10 F1 AA FF 
+RX ID 0x134: 2D 3E E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: BA 10 AA FA 10 F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:20.62: RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+07:55:20.65: 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: F3 11 AA FA 1A F1 AA FF 
+RX ID 0x134: 45 31 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x130: 39 12 AA FA 1A F1 AA FF 
+RX ID 0x134: FF 32 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 7F 13 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+RX ID 0x130: B0 14 AA FA 1A F1 AA FF 
+RX ID 0x134: 96 34 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: F6 15 AA FA 1A F1 AA FF 
+RX ID 0x134: F4 35 E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+RX ID 0x130: 3C 16 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:21.29: RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 7A 17 AA FA 1A F1 AA FF 
+RX ID 0x134: D3 37 E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: BF 18 AA FA 1A F1 AA FF 
+RX ID 0x134: 44 38 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: F9 19 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 33 1A AA FA 1A F1 AA FF 
+RX ID 0x134: 9C 3A E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:21.61: RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+07:55:21.63: 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 75 1B AA FA 1A F1 AA FF 
+RX ID 0x134: 01 3B E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: BA 1C AA FA 1A F1 AA FF 
+RX ID 0x134: 0A 3C E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+RX ID 0x130: FC 1D AA FA 1A F1 AA FF 
+RX ID 0x134: 68 3D E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 36 1E AA FA 1A F1 AA FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+07:55:21.99: BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+07:55:22.06: BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.08: RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: B5 10 AA FA 1A F1 AA FF 
+RX ID 0x134: 27 30 E7 0F 55 FF FF FF 
+Pack Voltage: 61.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: F3 11 AA FA 1A F1 AA FF 
+RX ID 0x134: 45 31 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.23: 
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.29: 
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x130: 39 12 AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 7F 13 AA FA 1A F1 AA FF 
+RX ID 0x134: 62 33 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.42: RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.47: RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+07:55:22.50: RX ID 0x130: B0 14 AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: F6 15 AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+RX ID 0x130: 3C 16 AA FA 1A F1 AA FF 
+RX ID 0x134: B1 36 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.77: 
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 7A 17 AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: BF 18 AA FA 1A F1 AA FF 
+RX ID 0x134: 44 38 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+07:55:22.91: 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:22.97: 
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: F9 19 AA FA 1A F1 AA FF 
+RX ID 0x134: D9 39 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 33 1A AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+07:55:23.12: BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:23.15: RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+07:55:23.18: BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 75 1B AA FA 1A F1 AA FF 
+RX ID 0x134: FE 3B E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: BA 1C AA FA 1A F1 AA FF 
+RX ID 0x134: 0A 3C E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+RX ID 0x130: FC 1D AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 36 1E AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: B5 10 AA FA 1A F1 AA FF 
+RX ID 0x134: D8 30 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: F3 11 AA FA 1A F1 AA FF 
+RX ID 0x134: 45 31 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x130: 39 12 AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 7F 13 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+RX ID 0x130: B0 14 AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+07:55:24.02: 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+07:55:24.04: 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:24.07: 
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: F6 15 AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+RX ID 0x130: 3C 16 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 7A 17 AA FA 1A F1 AA FF 
+RX ID 0x134: AA 37 E8 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 05 48 00 00 E3 02 43 00 
+RX ID 0x130: BF 18 AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 58 49 00 00 E3 02 43 00 
+RX ID 0x130: F9 19 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BF 4A 00 00 E3 02 43 00 
+RX ID 0x130: 33 1A AA FA 1A F1 AA FF 
+RX ID 0x134: 63 3A E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x704: EC 86 6E FF FF FF FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E2 4B 00 00 E3 02 43 00 
+RX ID 0x130: 75 1B AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6C 4C 00 00 E3 02 43 00 
+RX ID 0x130: BA 1C AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+07:55:24.81: BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:24.84: RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:24.87: RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 31 4D 00 00 E3 02 43 00 
+07:55:24.89: 
+RX ID 0x130: FC 1D AA FA 1A F1 AA FF 
+RX ID 0x134: 97 3D E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D6 4E 00 00 E3 02 43 00 
+RX ID 0x130: 36 1E AA FA 1A F1 AA FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+07:55:25.03: BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 3C 2A 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:25.06: RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+07:55:25.08: BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: D7 40 00 00 E3 02 43 00 
+RX ID 0x130: B5 10 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 8A 41 00 00 E3 02 43 00 
+RX ID 0x130: F3 11 AA FA 1A F1 AA FF 
+RX ID 0x134: 45 31 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+07:55:25.22: BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+07:55:25.25: BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 6D 42 00 00 E3 02 43 00 
+RX ID 0x130: 39 12 AA FA 1A F1 AA FF 
+RX ID 0x134: FF 32 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 30 43 00 00 E3 02 43 00 
+RX ID 0x130: 7F 13 AA FA 1A F1 AA FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: F9 25 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:25.44: RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: BE 44 00 00 E3 02 43 00 
+RX ID 0x130: B0 14 AA FA 1A F1 AA FF 
+07:55:25.49: RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: BA 20 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+07:55:25.57: 
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: E3 45 00 00 E3 02 43 00 
+RX ID 0x130: F6 15 AA FA 1A F1 AA FF 
+RX ID 0x134: 0B 35 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 04 46 00 00 E3 02 43 00 
+RX ID 0x130: 3C 16 AA FA 1A F1 AA FF 
+RX ID 0x134: B1 36 E7 FF 54 FF FF FF 
+Pack Voltage: 1021.25
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 70 23 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: BF 24 01 16 00 00 90 FF 
+BatSts: BatSt=15 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x725: 00 00 00 00 00 00 00 00 
+RX ID 0x136: 33 26 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 75 27 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B0 28 01 16 00 00 90 FF 
+BatSts: BatSt=0 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F6 29 01 16 00 00 90 FF 
+BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x131: 59 47 00 00 E3 02 43 00 
+RX ID 0x130: 7A 17 AA FA 1A F1 AA FF 
+RX ID 0x136: 7A 2B 01 16 00 00 90 FF 
+BatSts: BatSt=10 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: B5 2C 01 16 00 00 90 FF 
+BatSts: BatSt=5 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: F3 2D 01 16 00 00 90 FF 
+BatSts: BatSt=3 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 39 2E 01 16 00 00 90 FF 
+BatSts: BatSt=9 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x700: 00 00 00 00 00 00 FF FF 
+RX ID 0x136: FC 21 01 16 00 00 90 FF 
+BatSts: BatSt=12 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136: 36 22 01 16 00 00 90 FF 
+07:55:25.85: BatSts: BatSt=6 (0=Open, 2=Closed) Err=2 (0=OK, 2=Sequence/Timeout, 6=CRC Mismatch)
+RX ID 0x136
